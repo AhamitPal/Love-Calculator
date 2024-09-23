@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(227, 25, 72);
+    font-family: "Ubuntu";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+
+}
+.container{
+    background-color: rgb(242, 152, 170);
+    padding: 50px;
+    width: 500px;
+    box-shadow: 0 2px 5px rgb(14, 13, 13);
+    border:2px solid rgb(157, 8, 78);
+    border-radius: 10px;
+    text-align: center;
+}
+h2{
+    color:rgb(227,25,72);
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 1000;
+}
+.calculator{
+    margin-top: 20px;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: rgb(227, 25, 72);
+    font-weight: 500;
+}
+input[type="text"]{
+    width: 80%;
+    padding: 10px;
+    color: rgb(227, 25, 72);
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+button{
+    
+    margin-top: 10px;
+    padding: 10px;
+    border-radius:15px;
+    border: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: rgb(227,25,72);
+    color: aliceblue;
+    font-weight: 500;
+    
+}
+button:hover{
+    color: rgb(227, 25, 72);
+    background-color: aliceblue;
+}
+#result{
+    margin-top: 10px;
+    font-size: 15px;
+    color: rgb(227, 25, 72);
+    font-weight: 500;
+}
